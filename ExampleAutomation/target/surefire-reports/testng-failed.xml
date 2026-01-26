@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExampleAutomation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Home Test(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.demo.tests.Home">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchForAProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.demo.tests.Home -->
+    </classes>
+  </test> <!-- Home Test(failed) -->
+</suite> <!-- Failed suite [ExampleAutomation Suite] -->
