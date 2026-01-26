@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-26T19:43:59 IST" name="Surefire suite" finished-at="2026-01-26T19:44:05 IST" duration-ms="5603">
+  <suite started-at="2026-01-26T22:58:25 IST" name="ExampleAutomation Suite" finished-at="2026-01-26T22:58:49 IST" duration-ms="23543">
     <groups>
     </groups>
-    <test started-at="2026-01-26T19:43:59 IST" name="Surefire test" finished-at="2026-01-26T19:44:05 IST" duration-ms="5603">
-      <class name="com.selenium.demo.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.demo.GoogleTest@2f177a4b]" started-at="2026-01-26T19:43:59 IST" name="setUp" finished-at="2026-01-26T19:44:01 IST" duration-ms="1399" status="PASS">
+    <test started-at="2026-01-26T22:58:25 IST" name="Home Test" finished-at="2026-01-26T22:58:49 IST" duration-ms="23543">
+      <class name="com.selenium.demo.tests.Home">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:25 IST" name="setUp" finished-at="2026-01-26T22:58:30 IST" duration-ms="4372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleTitle()[pri:0, instance:com.selenium.demo.GoogleTest@2f177a4b]" started-at="2026-01-26T19:44:01 IST" name="verifyGoogleTitle" finished-at="2026-01-26T19:44:05 IST" duration-ms="3880" status="PASS">
+        <test-method signature="searchForAProduct()[pri:1, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:30 IST" name="searchForAProduct" finished-at="2026-01-26T22:58:49 IST" duration-ms="18903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGoogleTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.demo.GoogleTest@2f177a4b]" started-at="2026-01-26T19:44:05 IST" name="tearDown" finished-at="2026-01-26T19:44:05 IST" duration-ms="283" status="PASS">
+        </test-method> <!-- searchForAProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:49 IST" name="tearDown" finished-at="2026-01-26T22:58:49 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.selenium.demo.GoogleTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- com.selenium.demo.tests.Home -->
+    </test> <!-- Home Test -->
+  </suite> <!-- ExampleAutomation Suite -->
 </testng-results>
