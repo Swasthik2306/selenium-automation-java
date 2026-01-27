@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-26T22:58:25 IST" name="ExampleAutomation Suite" finished-at="2026-01-26T22:58:49 IST" duration-ms="23543">
+  <suite started-at="2026-01-27T17:45:27 IST" name="ExampleAutomation Suite" finished-at="2026-01-27T17:45:49 IST" duration-ms="21599">
     <groups>
     </groups>
-    <test started-at="2026-01-26T22:58:25 IST" name="Home Test" finished-at="2026-01-26T22:58:49 IST" duration-ms="23543">
+    <test started-at="2026-01-27T17:45:27 IST" name="Home Test" finished-at="2026-01-27T17:45:49 IST" duration-ms="21599">
       <class name="com.selenium.demo.tests.Home">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:25 IST" name="setUp" finished-at="2026-01-26T22:58:30 IST" duration-ms="4372" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:27 IST" name="setUp" finished-at="2026-01-27T17:45:29 IST" duration-ms="1923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchForAProduct()[pri:1, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:30 IST" name="searchForAProduct" finished-at="2026-01-26T22:58:49 IST" duration-ms="18903" status="PASS">
+        <test-method signature="searchForAProduct()[pri:1, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:29 IST" name="searchForAProduct" finished-at="2026-01-27T17:45:34 IST" duration-ms="5032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForAProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.demo.tests.Home@6e171cd7]" started-at="2026-01-26T22:58:49 IST" name="tearDown" finished-at="2026-01-26T22:58:49 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:34 IST" name="tearDown" finished-at="2026-01-27T17:45:34 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:34 IST" name="setUp" finished-at="2026-01-27T17:45:36 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateUserLocation()[pri:2, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:36 IST" name="updateUserLocation" finished-at="2026-01-27T17:45:49 IST" duration-ms="13309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserLocation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.demo.tests.Home@54c562f7]" started-at="2026-01-27T17:45:49 IST" name="tearDown" finished-at="2026-01-27T17:45:49 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

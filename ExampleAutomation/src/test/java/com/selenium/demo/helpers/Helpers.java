@@ -79,4 +79,14 @@ public class Helpers {
             return false;
         }
     }
+
+    public void waitForTimeout(int timeoutInSeconds) {
+        try {
+            Thread.sleep(timeoutInSeconds * 1000L);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Thread interrupted while waiting", e);
+        }
+    }
+
 }

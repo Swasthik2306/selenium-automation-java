@@ -20,6 +20,19 @@ public class Home extends Driver {
         helper.isDisplayed(By.id("sac-suggestion-row-1"), 5);
         helper.click(By.id("sac-suggestion-row-1"), 5);
         Assert.assertTrue(helper.isDisplayed(By.xpath("//*[text()='Check each product page for other buying options.']"), 5));
+    }
+    
+    @Test(priority = 2)
+    public void updateUserLocation() {
+        helper = new Helpers(driver);
+        helper.click(By.id("nav-global-location-popover-link"), 10);
+        helper.waitTillVisible(By.cssSelector("[autocomplete='postal-code']"), 15);
+        helper.type(By.cssSelector("[autocomplete='postal-code']"), "575029", 10);
+        helper.click(By.xpath("//span[normalize-space()='Apply']"), 10);
+        helper.waitForTimeout(10);
+        helper.waitTillVisible(By.xpath("//span[@id='glow-ingress-line2']"));
+        String text = helper.getText(By.xpath("//span[@id='glow-ingress-line2']"));
+        Assert.assertTrue(text.contains("575029"));
 
     }
 

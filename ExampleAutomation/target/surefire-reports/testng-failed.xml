@@ -6,7 +6,7 @@
       <class name="com.selenium.demo.tests.Home">
         <methods>
           <include name="setUp"/>
-          <include name="searchForAProduct"/>
+          <include name="updateUserLocation"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.selenium.demo.tests.Home -->

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-ExampleAutomation_Suite" class="navigator-link ">
-                    <span>D:\Personal_Projects\seleniumDemo\selenium-automation-java\ExampleAutomation\testng.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ExampleAutomation_Suite" title="com.selenium.demo.tests.Home" class="method navigator-link" hash-for-method="searchForAProduct">searchForAProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ExampleAutomation_Suite" title="com.selenium.demo.tests.Home" class="method navigator-link" hash-for-method="updateUserLocation">updateUserLocation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ExampleAutomation_Suite -->
@@ -131,12 +136,19 @@
                   <span class="method-name">searchForAProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserLocation">
+                  </a> <!-- updateUserLocation -->
+                  <span class="method-name">updateUserLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-ExampleAutomation_Suite-class-passed -->
         </div> <!-- panel ExampleAutomation_Suite -->
         <div panel-name="test-xml-ExampleAutomation_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Personal_Projects\seleniumDemo\selenium-automation-java\ExampleAutomation\testng.xml</span>
+            <span class="header-content">/home/user/myProjects/selenium-automation-java/ExampleAutomation/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,11 +197,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchForAProduct')
+data.setCell(0, 1, 'updateUserLocation')
 data.setCell(0, 2, 'com.selenium.demo.tests.Home')
-data.setCell(0, 3, 18903);
+data.setCell(0, 3, 13309);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchForAProduct')
+data.setCell(1, 2, 'com.selenium.demo.tests.Home')
+data.setCell(1, 3, 5032);
 window.suiteTableData['ExampleAutomation_Suite']= { tableData: data, tableDiv: 'times-div-ExampleAutomation_Suite'}
 return data;
 }
@@ -227,11 +243,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchForAProduct</span>
-                <span class="method-start">4373 ms</span>
+                <span class="method-start">1924 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23278 ms</span>
+                <span class="method-start">6957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateUserLocation</span>
+                <span class="method-start">8172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21482 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
